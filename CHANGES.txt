@@ -1,0 +1,7 @@
+0.3.0: (May 2, 2024)
+- Removed marketing ID from properties
+- Renamed Event CoreData entity to avoid conflicts with SDK Client
+- Added required privacy manifest
+- Added default events prefix "split.rum"
+- Added `removeIdentities` method
+- Deprecated `clearIdentities` method
