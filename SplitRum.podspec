@@ -7,9 +7,10 @@ Split's iOS RUM Agent collects events about your users' experience when they use
 The Split's iOS RUM Agent library is designed to work with Split, the platform for controlled rollouts, which serves features to your users via feature flags to manage your complete customer experience.
                    DESC
 
-  s.homepage         = 'http://www.split.io'
+  spec.homepage         = 'http://www.split.io'
   spec.license      = "Apache 2.0"
   spec.author             = "Split Software"
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/splitio/ios-rum", :tag => "#{spec.version}" }
+  spec.source       = { :http => "https://cdn.split.io/rum-agent-ios/SplitRumAgent_0.3.0.zip" }
+  spec.vendored_frameworks = "SplitRumAgent.xcframework"
 end
