@@ -8,7 +8,7 @@ The Split's iOS RUM Agent library is designed to work with Split, the platform f
                    DESC
 
   spec.homepage         = 'http://www.split.io'
-  spec.license      = "Apache 2.0"
+  spec.license          = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.author             = "Split Software"
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => "https://cdn.split.io/rum-agent-ios/SplitRumAgent_0.3.0.zip" }
