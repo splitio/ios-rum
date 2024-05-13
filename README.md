@@ -2,6 +2,8 @@
 
 ## Overview
 
+Split's iOS RUM Agent collects events about your users' experience when they use your application and sends this information to Split services. This allows you to measure and analyze the impact of feature flag changes on performance metrics.
+
 The Split's iOS RUM Agent library is designed to work with Split, the platform for controlled rollouts, which serves features to your users via feature flags to manage your complete customer experience.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/splitsoftware.svg?style=social&label=Follow&maxAge=1529000)](https://twitter.com/intent/follow?screen_name=splitsoftware)
