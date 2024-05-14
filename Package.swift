@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SplitRum",
-            url: "https://cdn.split.io/rum-agent-ios/SplitRumAgent_0.3.0.zip",
-            checksum: "25b95babc18bf099864c6bbd94bc050608686a9766b9b874fe44a0e9d8da3c08"
+            url: "https://cdn.split.io/rum-agent-ios/SplitRumAgent_0.4.0.zip",
+            checksum: "3128fa50df58f9021764cfff66d04336f733b3a08840b2b76e4174b307aa6dc9"
         ),
     ]
 )
