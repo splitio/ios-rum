@@ -16,8 +16,8 @@ Below is a simple index.js example that describes the instantiation and most bas
 import SplitRumAgent
 
 // Configure
-  try? SplitRum.setup(apiKey: apiKey, config: config)
-  SplitRum.addIdentity(key: "USER_ID", trafficType: "user")
+try? SplitRum.setup(apiKey: apiKey, config: config)
+SplitRum.addIdentity(key: "USER_ID", trafficType: "user")
 
 ```
 
